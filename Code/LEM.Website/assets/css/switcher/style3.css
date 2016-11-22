@@ -1,0 +1,104 @@
+#style-switcher h2 a { background: #07aaa5 none repeat scroll 0 0 }
+
+/*START SCROLL TO TOP*/
+.topcontrol {background: #07aaa5 none repeat scroll 0 0;}
+/*END SCROLL TO TOP*/
+
+a, a:hover {
+    color: #07aaa5;
+    text-decoration: none;
+}
+
+/*START MENU*/
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #07aaa5 !important;
+    background-color: transparent;
+}
+.menu-top li a:hover { color: #07aaa5!important }
+.navbar-default.menu-shrink li a:hover { color: #07aaa5 !important }
+.navbar-default .navbar-toggle .icon-bar { background-color: #07aaa5 }
+/*END MENU*/
+
+
+.section-title h2 span {color: #07aaa5 }
+.section-title div {background: #07aaa5  none repeat scroll 0 0;}
+.btn-light-bg {
+background: #07aaa5 none repeat scroll 0 0;
+border: 2px solid #07aaa5;
+}
+
+.btn-home-bg {background: #07aaa5 none repeat scroll 0 0;border: 2px solid #07aaa5;}
+
+.carousel-indicators li {border: 1px solid #07aaa5;}
+.carousel-indicators .active {border: 1px solid #07aaa5;background: #07aaa5 none repeat scroll 0 0;}
+
+.single_about i {
+background: #07aaa5 none repeat scroll 0 0;
+border: 1px solid #07aaa5;
+}
+
+.single_about:hover { background: #07aaa5 }
+
+.single_about:hover i {color: #07aaa5;}
+
+.progress-bar > span {background: #07aaa5 none repeat scroll 0 0;}
+
+.single_feature i {background:#07aaa5;}
+
+.single_service i {color: #07aaa5;}
+
+.our_work_menu ul li:hover, .our_work_menu ul li.active{
+	border-color: #07aaa5 ;
+	color:#07aaa5;
+}
+
+.sing_link_img a{
+background: #07aaa5 none repeat scroll 0 0;
+border: 1px solid #07aaa5;
+}
+
+.counter i {color: #07aaa5;}
+
+.counter:hover i {
+background: #07aaa5 none repeat scroll 0 0;
+border: 1px solid #07aaa5;
+}
+
+
+.single_team h3{color: #07aaa5;}
+
+.social_table ul a{
+background: #07aaa5 none repeat scroll 0 0;
+border: 1px solid #07aaa5;
+}
+
+.price {border: 1px solid #07aaa5;}
+
+.pricing-btn  button {background: #07aaa5;border: 1px solid #07aaa5;}
+
+.color-one {background: #07aaa5;}
+.color-two {background: #07aaa5;}
+.color-three {background: #07aaa5;}
+
+.testimonials_area h5{color: #07aaa5;}
+
+.owl-controls i:hover{color: #07aaa5;}
+
+.home_blog_text i {color: #07aaa5;}
+
+.home_blog_text span {color: #07aaa5;}
+
+.buy_now {background: #07aaa5 none repeat scroll 0 0;}
+
+.success {color: #07aaa5;}
+
+.contact_address ul li i {
+    background: #07aaa5 none repeat scroll 0 0;
+}
+.btn-contact-bg {
+	background: #07aaa5 none repeat scroll 0 0 !important;
+}
+
+.section-top-title ol li a:hover { color: #07aaa5!important }

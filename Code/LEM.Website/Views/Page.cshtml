@@ -1,0 +1,102 @@
+﻿@using LEM.Website.Controllers
+@inherits UmbracoTemplatePage
+@{
+	Layout = "SiteChrome.cshtml";
+}
+
+<!-- START PRELOADER -->
+<div class="preloader">
+    <div class="status">
+        <div class="status-mes"><h4>Les McCutcheon <br/>Software Developer</h4></div>
+    </div>
+</div>
+
+<section class="buy_now">
+    <div class="container text-center">
+        @*<h3 class="buy_now_title">Are you ready for your next project?<a href="#" class="btn btn-default btn-promotion-bg">Hire us</a> </h3>*@
+    </div>
+</section>
+
+<section id="contact" class="contact_area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="section-title text-center wow zoomIn">
+                <h2>Les McCutcheon - <span>Software Developer</span></h2>
+                <div></div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp">
+                <div class="contact_address">
+                    <p>Hi, my names Les McCutcheon, a senior software/full stack developer living and working in the south-east of England. I specialise in .Net technologies with a passion for CMS based solutions; most notably Umbraco, Episerver and Sitecore.</p>
+                    <p>If you have a project coming up or just playing with a concept, please get in touch.</p>
+                    <ul>
+                        <li><i class="fa fa-phone"></i>(+44) 7722-610-392</li>
+                        <li><i class="fa fa-envelope"></i>lesmac88@gmail.com</li>
+                    </ul>
+                </div>
+            </div><!-- END COL -->
+            <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight">
+                <div class="contact">
+                    @if (string.IsNullOrEmpty(Request.QueryString["submission"]))
+                    {
+                                        using (Html.BeginForm("ContactForm", "Form", null, FormMethod.Post, new { id = "contact-form", enctype = "multipart/form-data" }))
+                                        {
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <input type="text" name="name" class="form-control" id="Name" placeholder="Name" required="required">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <input type="email" name="email" class="form-control" id="Email" placeholder="Email" required="required">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <textarea rows="6" name="message" class="form-control" id="Message" placeholder="Your Message" required="required"></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="actions">
+                                        <input type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Submit Your Message!" />
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        if (Request.QueryString.Get("submission") == "Success")
+                        {
+                            <div class="section-title text-center wow zoomIn">
+                                <h2>Thank you for your enquiry. <br/> <span> I will get in contact shortly.</span></h2>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="section-title text-center wow zoomIn">
+                                <h2>Sorry, there has been an error. Please use one of the contact methods on the left</h2>
+                            </div>
+                        }
+                    }
+
+                </div>
+            </div><!-- END COL -->
+        </div><!--- END ROW -->
+    </div><!--- END CONTAINER -->
+</section>
+
+<!-- START FOOTER -->
+<footer class="footer section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center wow zoomIn">
+                <div class="footer_content">
+                    <div class="footer_social">
+                        <ul>
+                            <li><a class="f_twitter wow bounceInDown" data-wow-delay=".1s" href="https://twitter.com/LesMac2"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="f_linkedin wow bounceInDown" data-wow-delay=".2s" href="https://www.linkedin.com/in/les-mccutcheon-94512845"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <p>Les McCutcheon &copy; 2016 All Rights Reserved.</p>
+                </div>
+
+            </div><!--- END COL -->
+        </div><!--- END ROW -->
+    </div><!--- END CONTAINER -->
+</footer>
+<!-- END FOOTER -->

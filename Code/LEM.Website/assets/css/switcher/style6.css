@@ -1,0 +1,105 @@
+#style-switcher h2 a { background: #677999 none repeat scroll 0 0 }
+
+/*START SCROLL TO TOP*/
+.topcontrol {background: #677999 none repeat scroll 0 0;}
+/*END SCROLL TO TOP*/
+
+a, a:hover {
+    color: #677999;
+    text-decoration: none;
+}
+
+/*START MENU*/
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #677999 !important;
+    background-color: transparent;
+}
+.menu-top li a:hover { color: #677999!important }
+.navbar-default.menu-shrink li a:hover { color: #677999 !important }
+.navbar-default .navbar-toggle .icon-bar { background-color: #677999 }
+/*END MENU*/
+
+
+
+.section-title h2 span {color: #677999 }
+.section-title div {background: #677999  none repeat scroll 0 0;}
+.btn-light-bg {
+background: #677999 none repeat scroll 0 0;
+border: 2px solid #677999;
+}
+
+.btn-home-bg {background: #677999 none repeat scroll 0 0;border: 2px solid #677999;}
+
+.carousel-indicators li {border: 1px solid #677999;}
+.carousel-indicators .active {border: 1px solid #677999;background: #677999 none repeat scroll 0 0;}
+
+.single_about i {
+background: #677999 none repeat scroll 0 0;
+border: 1px solid #677999;
+}
+
+.single_about:hover { background: #677999 }
+
+.single_about:hover i {color: #677999;}
+
+.progress-bar > span {background: #677999 none repeat scroll 0 0;}
+
+.single_feature i {background:#677999;}
+
+.single_service i {color: #677999;}
+
+.our_work_menu ul li:hover, .our_work_menu ul li.active{
+	border-color: #677999 ;
+	color:#677999;
+}
+
+.sing_link_img a{
+background: #677999 none repeat scroll 0 0;
+border: 1px solid #677999;
+}
+
+.counter i {color: #677999;}
+
+.counter:hover i {
+background: #677999 none repeat scroll 0 0;
+border: 1px solid #677999;
+}
+
+
+.single_team h3{color: #677999;}
+
+.social_table ul a{
+background: #677999 none repeat scroll 0 0;
+border: 1px solid #677999;
+}
+
+.price {border: 1px solid #677999;}
+
+.pricing-btn  button {background: #677999;border: 1px solid #677999;}
+
+.color-one {background: #677999;}
+.color-two {background: #677999;}
+.color-three {background: #677999;}
+
+.testimonials_area h5{color: #677999;}
+
+.owl-controls i:hover{color: #677999;}
+
+.home_blog_text i {color: #677999;}
+
+.home_blog_text span {color: #677999;}
+
+.buy_now {background: #677999 none repeat scroll 0 0;}
+
+.success {color: #677999;}
+
+.contact_address ul li i {
+    background: #677999 none repeat scroll 0 0;
+}
+.btn-contact-bg {
+	background: #677999 none repeat scroll 0 0 !important;
+}
+
+.section-top-title ol li a:hover { color: #677999!important }

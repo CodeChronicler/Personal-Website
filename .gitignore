@@ -45,3 +45,13 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/Code/.vs
+/Code/LEM.Website/bin
+/Code/LEM.Website/obj/Debug
+/Code/packages
+/Code/LEM.Website/App_Data/NuGetBackup
+/Code/LEM.Website/App_Data
+/Code/LEM.Website/node_modules
+/Code/LEM.Website/Umbraco
+/Code/LEM.Website/Umbraco_Client
+/Code/LEM.Website/obj/Release
